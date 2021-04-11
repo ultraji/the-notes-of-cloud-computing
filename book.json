@@ -1,0 +1,61 @@
+{
+    "title": "菜鸟云计算工程师的学习笔记",
+    "author": "ultraji",
+    "links": {
+        "sidebar": {
+            "Home": "http://ultraji.xyz"
+        }
+    },
+    "plugins": [
+        "summary",
+        "-lunr", "-search", "search-pro",
+        "chapter-fold",
+        "code",
+        "splitter",
+        "favicon",
+        "insert-logo",
+        "pageview-count",
+        "tbfed-pagefooter",
+        "lightbox",
+        "-sharing", "sharing-plus",
+        "edit-link",
+        "anchor-navigation-ex"
+    ],
+    "pluginsConfig": {
+        "favicon": {
+            "shortcut": "/assets/images/profile.jpg",
+            "bookmark": "/assets/images/profile.jpgo",
+            "appleTouch": "/assets/images/profile.jpg"
+        },
+        "insert-logo": {
+          "url": "/assets/images/profile.jpg",
+          "style": "background: none; max-height: 50px; min-height: 50px"
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy ultraji.xyz 2019",
+            "modify_label": "该文章修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false
+        },
+        "edit-link": {
+            "base": "https://github.com/ultraji/the-notes-of-cloud-computing",
+            "label": "编辑此页面"
+        },
+        "sharing": {
+            "douban": true,
+            "facebook": true,
+            "google": true,
+            "pocket": true,
+            "qq": true,
+            "qzone": true,
+            "twitter": true,
+            "weibo": true,
+            "all": [
+                "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
+                "messenger","qq", "qzone","viber","whatsapp"
+            ]
+        }
+    }
+}
